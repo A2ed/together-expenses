@@ -1,12 +1,40 @@
+<div align="center">
+
 # Together
 
-A small shared expense dashboard for a Scotiabank Visa. Self-hosted on your computer, with a shared password, SQLite storage, CSV imports, and optional OpenRouter AI.
+### Your spending, on your own machine.
 
-Your spending, on your own machine. Bring a CSV and your own AI key.
+A little personal software for making sense of household expenses.<br>
+Bring a CSV. Add an AI key if you like. Keep it on your own computer.
 
-MIT licensed. Currently supports Scotiabank Visa CSV exports and CAD, one shared card, and one shared household password. Other bank formats and currencies need an importer change. This is an independent project, not affiliated with Scotiabank or OpenRouter.
+[![Validate](https://github.com/A2ed/together-expenses/actions/workflows/ci.yml/badge.svg)](https://github.com/A2ed/together-expenses/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-a3e635?style=flat-square)](LICENSE)
+[![Node.js 24+](https://img.shields.io/badge/Node.js-24%2B-38bdf8?style=flat-square)](#local-setup)
+[![Self-hosted](https://img.shields.io/badge/self--hosted-your%20machine-a78bfa?style=flat-square)](#local-setup)
+[![AI: optional](https://img.shields.io/badge/AI-optional-fb923c?style=flat-square)](#data-and-ai)
+
+[Get started](#local-setup) · [Features](#use-it) · [Data & AI](#data-and-ai) · [Contribute](CONTRIBUTING.md)
+
+</div>
+
+![Together dashboard showing cumulative spending, category totals, and previous-month comparison](docs/images/dashboard.png)
+
+<p align="center"><sub>Fictional demo transactions. No real financial data is shown.</sub></p>
 
 ## Use it
+
+| | What you can do |
+| :-- | :-- |
+| 📥 **CSV → dashboard** | Import a Scotia export, categorize purchases, and edit any transaction. |
+| 📈 **See your pace** | Compare cumulative spending by week or month, with category filters and previous-period overlays. |
+| ✨ **Ask your data** | Chat about spending or generate an insights report with explanations and charts. |
+| 🏠 **Keep it at home** | Run locally with SQLite and a shared password. Open it from another laptop on your Wi-Fi. |
+
+**Scotiabank Visa CSV · CAD · One shared card · Optional OpenRouter AI**
+
+<details>
+<summary><strong>A closer look at the features</strong></summary>
+
 
 - **Overview:** net spending, groceries, configurable large-purchase flags, and category breakdowns for the selected month or all history.
 - **Cumulative spending:** switch the Spending chart between Activity and Cumulative. Choose a calendar month or Monday-start week, filter one category, and optionally overlay the previous period aligned by day. Comparisons use matching elapsed days; missing imported history is marked and excluded from comparisons.
@@ -21,6 +49,10 @@ Money is stored as integer CAD cents. Card payments never count as spending. Ref
 Imported date coverage is based on observed rows, not proof of complete statements. Partial periods are explicitly marked. No bank connection or scheduled download is implied.
 
 The interface uses dark shadcn surfaces, interactive category-ring filtering, animated totals, sliding tabs, and a compact question bar. Press **⌘K** (Ctrl+K on Windows) to jump to a view, category, import, or Settings.
+
+</details>
+
+Currently supports Scotiabank Visa exports. Other bank formats and currencies need an importer change. Independent project; not affiliated with Scotiabank or OpenRouter.
 
 ## Local setup
 
