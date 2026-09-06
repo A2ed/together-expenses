@@ -1,0 +1,541 @@
+[
+  {
+    "id": "openai/gpt-6-astra",
+    "name": "GPT-6 Astra",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-6-astra-pro",
+    "name": "GPT-6 Astra Pro",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-luna-pro",
+    "name": "GPT-5.6 Luna Pro",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-luna",
+    "name": "GPT-5.6 Luna",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-terra-pro",
+    "name": "GPT-5.6 Terra Pro",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-terra",
+    "name": "GPT-5.6 Terra",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-sol-pro",
+    "name": "GPT-5.6 Sol Pro",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.6-sol",
+    "name": "GPT-5.6 Sol",
+    "efforts": [
+      "max",
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-chat-latest",
+    "name": "GPT Chat Latest",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.5-pro",
+    "name": "GPT-5.5 Pro",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.5",
+    "name": "GPT-5.5",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.4-nano",
+    "name": "GPT-5.4 Nano",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.4-mini",
+    "name": "GPT-5.4 Mini",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.4-pro",
+    "name": "GPT-5.4 Pro",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.4",
+    "name": "GPT-5.4",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.3-codex",
+    "name": "GPT-5.3-Codex",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.2-codex",
+    "name": "GPT-5.2-Codex",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.2-chat",
+    "name": "GPT-5.2 Chat",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 32000
+  },
+  {
+    "id": "openai/gpt-5.2-pro",
+    "name": "GPT-5.2 Pro",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.2",
+    "name": "GPT-5.2",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.1-codex-max",
+    "name": "GPT-5.1-Codex-Max",
+    "efforts": [
+      "xhigh",
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.1",
+    "name": "GPT-5.1",
+    "efforts": [
+      "high",
+      "medium",
+      "low",
+      "none"
+    ],
+    "defaultEffort": "none",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.1-codex",
+    "name": "GPT-5.1-Codex",
+    "efforts": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5.1-codex-mini",
+    "name": "GPT-5.1-Codex-Mini",
+    "efforts": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-oss-safeguard-20b",
+    "name": "gpt-oss-safeguard-20b",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 65536
+  },
+  {
+    "id": "openai/gpt-5-pro",
+    "name": "GPT-5 Pro",
+    "efforts": [
+      "high"
+    ],
+    "defaultEffort": "high",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5",
+    "name": "GPT-5",
+    "efforts": [
+      "high",
+      "medium",
+      "low",
+      "minimal"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5-mini",
+    "name": "GPT-5 Mini",
+    "efforts": [
+      "high",
+      "medium",
+      "low",
+      "minimal"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-5-nano",
+    "name": "GPT-5 Nano",
+    "efforts": [
+      "high",
+      "medium",
+      "low",
+      "minimal"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 128000
+  },
+  {
+    "id": "openai/gpt-oss-120b",
+    "name": "gpt-oss-120b",
+    "efforts": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 117964
+  },
+  {
+    "id": "openai/gpt-oss-20b",
+    "name": "gpt-oss-20b",
+    "efforts": [
+      "high",
+      "medium",
+      "low"
+    ],
+    "defaultEffort": "medium",
+    "maxOutput": 117964
+  },
+  {
+    "id": "openai/o3-pro",
+    "name": "o3 Pro",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o4-mini-high",
+    "name": "o4 Mini High",
+    "efforts": [
+      "high"
+    ],
+    "defaultEffort": "high",
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o3",
+    "name": "o3",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o4-mini",
+    "name": "o4 Mini",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/gpt-4.1",
+    "name": "GPT-4.1",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 32768
+  },
+  {
+    "id": "openai/gpt-4.1-mini",
+    "name": "GPT-4.1 Mini",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 32768
+  },
+  {
+    "id": "openai/gpt-4.1-nano",
+    "name": "GPT-4.1 Nano",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 32768
+  },
+  {
+    "id": "openai/o1-pro",
+    "name": "o1-pro",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o3-mini-high",
+    "name": "o3 Mini High",
+    "efforts": [
+      "high"
+    ],
+    "defaultEffort": "high",
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o3-mini",
+    "name": "o3 Mini",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/o1",
+    "name": "o1",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 100000
+  },
+  {
+    "id": "openai/gpt-4o-2024-11-20",
+    "name": "GPT-4o (2024-11-20)",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 16384
+  },
+  {
+    "id": "openai/gpt-4o-2024-08-06",
+    "name": "GPT-4o (2024-08-06)",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 16384
+  },
+  {
+    "id": "openai/gpt-4o-mini",
+    "name": "GPT-4o-mini",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 16384
+  },
+  {
+    "id": "openai/gpt-4o-mini-2024-07-18",
+    "name": "GPT-4o-mini (2024-07-18)",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 16384
+  },
+  {
+    "id": "openai/gpt-4o",
+    "name": "GPT-4o",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 16384
+  },
+  {
+    "id": "openai/gpt-4o-2024-05-13",
+    "name": "GPT-4o (2024-05-13)",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  },
+  {
+    "id": "openai/gpt-4-turbo",
+    "name": "GPT-4 Turbo",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-0613",
+    "name": "GPT-3.5 Turbo (older v0613)",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 3685
+  },
+  {
+    "id": "openai/gpt-4-turbo-preview",
+    "name": "GPT-4 Turbo Preview",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-instruct",
+    "name": "GPT-3.5 Turbo Instruct",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 3685
+  },
+  {
+    "id": "openai/gpt-3.5-turbo-16k",
+    "name": "GPT-3.5 Turbo 16k",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  },
+  {
+    "id": "openai/gpt-3.5-turbo",
+    "name": "GPT-3.5 Turbo",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  },
+  {
+    "id": "openai/gpt-4",
+    "name": "GPT-4",
+    "efforts": [],
+    "defaultEffort": null,
+    "maxOutput": 4096
+  }
+]
